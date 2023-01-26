@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projeto_estacionamento_mod3", "projeto_estacionamento_mod3\projeto_estacionamento_mod3.csproj", "{73C0745B-AFC1-4140-A4DB-0BDCC374855D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73C0745B-AFC1-4140-A4DB-0BDCC374855D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C0745B-AFC1-4140-A4DB-0BDCC374855D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C0745B-AFC1-4140-A4DB-0BDCC374855D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C0745B-AFC1-4140-A4DB-0BDCC374855D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {024F4AAA-8820-4C9A-9788-4C0D45CA5FB6}
+	EndGlobalSection
+EndGlobal

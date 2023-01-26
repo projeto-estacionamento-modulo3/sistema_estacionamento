@@ -1,0 +1,15 @@
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\bin\Debug\net6.0\projeto_estacionamento_mod3.exe
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\bin\Debug\net6.0\projeto_estacionamento_mod3.deps.json
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\bin\Debug\net6.0\projeto_estacionamento_mod3.runtimeconfig.json
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\bin\Debug\net6.0\projeto_estacionamento_mod3.dll
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\bin\Debug\net6.0\projeto_estacionamento_mod3.pdb
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\obj\Debug\net6.0\projeto_estacionamento_mod3.csproj.AssemblyReference.cache
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\obj\Debug\net6.0\projeto_estacionamento_mod3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\obj\Debug\net6.0\projeto_estacionamento_mod3.AssemblyInfoInputs.cache
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\obj\Debug\net6.0\projeto_estacionamento_mod3.AssemblyInfo.cs
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\obj\Debug\net6.0\projeto_estacionamento_mod3.csproj.CoreCompileInputs.cache
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\obj\Debug\net6.0\projeto_estacionamento_mod3.dll
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\obj\Debug\net6.0\refint\projeto_estacionamento_mod3.dll
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\obj\Debug\net6.0\projeto_estacionamento_mod3.pdb
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\obj\Debug\net6.0\projeto_estacionamento_mod3.genruntimeconfig.cache
+C:\Users\jusea\OneDrive\Documentos\Sinqia\BeTheNext\Modulo 3 - POO 2\Projetos\NovoRepoProjeto\projeto_estacionamento_mod3\projeto_estacionamento_mod3\obj\Debug\net6.0\ref\projeto_estacionamento_mod3.dll
