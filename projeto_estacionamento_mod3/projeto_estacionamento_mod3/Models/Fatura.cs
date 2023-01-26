@@ -80,7 +80,8 @@ namespace projeto_estacionamento_mod3.Models
                 //Os segundos são considerados as horas para escopo de projeto (não ter que esperar horas para calcular um valor)
                 Console.WriteLine($"Período estacionado: {segundos} horas");
 
-                Console.WriteLine($"intervalo {segundos} segundos");
+                //Apenas para demonstrar que um segundo na aplicação corresponde a uma hora da vida real.
+                Console.WriteLine($"intervalo de {segundos} segundos (1 segundo = 1 hora");
 
                 //Os segundos são considerados como as horas, apenas para que possa ser utlizado no escopo do projeto.
                 decimal valorTotal = segundos * ValorHora;

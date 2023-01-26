@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -313,8 +314,16 @@ namespace projeto_estacionamento_mod3.Models
 
             veiculoEstacionado.FaturaEstacionamento.CalcularValorTotal(veiculoEstacionado.Lavagem, veiculoEstacionado.Revisão);
 
-            veiculoEstacionado.Lavagem = false;
-            veiculoEstacionado.Revisão = false;
+
+            //Retorna o tipo do objeto por reflection.
+            Type tipoDoObjeto = veiculoEstacionado.GetType();
+
+            //Seta as prorpiedades do objeto para false por reflection.
+            PropertyInfo PropriedadeLavagem = tipoDoObjeto.GetProperty("Lavagem");
+            PropriedadeLavagem.SetValue(veiculoEstacionado, false);
+            PropertyInfo PropriedadeRevisao = tipoDoObjeto.GetProperty("Revisão");
+            PropriedadeRevisao.SetValue(veiculoEstacionado, false);
+
 
         }
 
