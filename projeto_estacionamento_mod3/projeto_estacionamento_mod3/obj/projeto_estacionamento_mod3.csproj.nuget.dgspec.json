@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jusea\\OneDrive\\Documentos\\Sinqia\\BeTheNext\\Modulo 3 - POO 2\\Projetos\\NovoRepoProjeto\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj": {}
+    "C:\\Users\\lucas\\Source\\Repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jusea\\OneDrive\\Documentos\\Sinqia\\BeTheNext\\Modulo 3 - POO 2\\Projetos\\NovoRepoProjeto\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj": {
+    "C:\\Users\\lucas\\Source\\Repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jusea\\OneDrive\\Documentos\\Sinqia\\BeTheNext\\Modulo 3 - POO 2\\Projetos\\NovoRepoProjeto\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\Source\\Repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
         "projectName": "projeto_estacionamento_mod3",
-        "projectPath": "C:\\Users\\jusea\\OneDrive\\Documentos\\Sinqia\\BeTheNext\\Modulo 3 - POO 2\\Projetos\\NovoRepoProjeto\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
-        "packagesPath": "C:\\Users\\jusea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jusea\\OneDrive\\Documentos\\Sinqia\\BeTheNext\\Modulo 3 - POO 2\\Projetos\\NovoRepoProjeto\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\obj\\",
+        "projectPath": "C:\\Users\\lucas\\Source\\Repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\Source\\Repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\VSComponentes\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jusea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

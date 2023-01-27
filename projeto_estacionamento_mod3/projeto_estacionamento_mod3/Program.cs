@@ -7,6 +7,12 @@
             // Pegando os dados do estacionamento do usuário.
             Console.Write("Digite o nome do seu estabelecimento: ");
             string nomeEstabelecimento = Console.ReadLine();
+            while(string.IsNullOrWhiteSpace(nomeEstabelecimento))
+            {
+                Console.WriteLine("Nome do estacionamento não pode ser vazio ou somente espaços em branco.");
+                Console.WriteLine("Digite o nome novamente: ");
+                nomeEstabelecimento = Console.ReadLine();
+            }
 
             bool sucesso;
             int qtdeVagasDisponiveis;

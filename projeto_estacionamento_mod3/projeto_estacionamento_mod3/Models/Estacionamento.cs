@@ -221,15 +221,35 @@ namespace projeto_estacionamento_mod3.Models
 
             Console.Write("Digite o tipo do veículo: ");
             string tipoVeiculo = Console.ReadLine();
+            while (string.IsNullOrWhiteSpace(tipoVeiculo))
+            {
+                Console.WriteLine("Informe o tipo de veículo:");
+                tipoVeiculo = Console.ReadLine();
+            }
 
-            Console.Write("Digite a marca do veículo: ");
+                Console.Write("Digite a marca do veículo: ");
             string marcaVeiculo = Console.ReadLine();
+            while (string.IsNullOrWhiteSpace(marcaVeiculo))
+            {
+                Console.WriteLine("Informe a marca do veículo:");
+                marcaVeiculo = Console.ReadLine();
+            }
 
             Console.Write("Digite o modelo do veículo: ");
             string modeloVeiculo = Console.ReadLine();
+            while (string.IsNullOrWhiteSpace(modeloVeiculo))
+            {
+                Console.WriteLine("Informe o modelo do veículo:");
+                modeloVeiculo = Console.ReadLine();
+            }
 
             Console.Write("Digita a cor do veículo: ");
             string corVeiculo = Console.ReadLine();
+            while (string.IsNullOrWhiteSpace(corVeiculo))
+            {
+                Console.WriteLine("Informe a cor do veículo:");
+                corVeiculo = Console.ReadLine();
+            }
 
             // Placa do Veiculo
             string placaVeiculo;
