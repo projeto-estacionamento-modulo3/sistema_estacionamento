@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\Source\\Repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj": {}
+    "C:\\Users\\rhuan\\OneDrive\\Área de Trabalho\\letscode-956-poo\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\Source\\Repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj": {
+    "C:\\Users\\rhuan\\OneDrive\\Área de Trabalho\\letscode-956-poo\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\Source\\Repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
+        "projectUniqueName": "C:\\Users\\rhuan\\OneDrive\\Área de Trabalho\\letscode-956-poo\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
         "projectName": "projeto_estacionamento_mod3",
-        "projectPath": "C:\\Users\\lucas\\Source\\Repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\Source\\Repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\obj\\",
+        "projectPath": "C:\\Users\\rhuan\\OneDrive\\Área de Trabalho\\letscode-956-poo\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
+        "packagesPath": "C:\\Users\\rhuan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rhuan\\OneDrive\\Área de Trabalho\\letscode-956-poo\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\VSComponentes\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rhuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
