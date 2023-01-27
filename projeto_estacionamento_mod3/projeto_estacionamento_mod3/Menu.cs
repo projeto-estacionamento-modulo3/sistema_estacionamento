@@ -21,7 +21,8 @@ namespace projeto_estacionamento_mod3
             Console.WriteLine("Digite 4 para cadastrar um veiculo.");
             Console.WriteLine("Digite 5 para ver todos os veiculos cadastrados.");
             Console.WriteLine("Digite 6 para Serviços Extras oferecidos.");
-            Console.WriteLine("Digite 7 para sair.");
+            Console.WriteLine("Digite 7 para verificar a quantidade de vagas ainda disponíveis.");
+            Console.WriteLine("Digite 8 para sair.");
 
             Console.WriteLine();
 
@@ -32,12 +33,12 @@ namespace projeto_estacionamento_mod3
                 Console.Write("Digite uma das opções acima: ");
                 int.TryParse(Console.ReadLine(), out opcDoMenuEscolhida);
 
-                if (opcDoMenuEscolhida < 1 || opcDoMenuEscolhida > 7)
+                if (opcDoMenuEscolhida < 1 || opcDoMenuEscolhida > 8)
                 {
                     Console.WriteLine("Opção digitada inexistente\n");
                 }
 
-            } while (opcDoMenuEscolhida < 1 || opcDoMenuEscolhida > 7);
+            } while (opcDoMenuEscolhida < 1 || opcDoMenuEscolhida > 8);
 
             Console.WriteLine();
 
@@ -65,6 +66,9 @@ namespace projeto_estacionamento_mod3
                     estacionamento.AplicarServicosExtras();
                     break;
                 case 7:
+                    estacionamento.VerVagasDisponiveis();
+                    break;
+                case 8:
                     break;
             }
         }
