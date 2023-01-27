@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rhuan\\.nuget\\packages\\": {}
+    "C:\\Users\\lucas\\.nuget\\packages\\": {},
+    "D:\\VSComponentes\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rhuan\\OneDrive\\Área de Trabalho\\letscode-956-poo\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
       "projectName": "projeto_estacionamento_mod3",
-      "projectPath": "C:\\Users\\rhuan\\OneDrive\\Área de Trabalho\\letscode-956-poo\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
-      "packagesPath": "C:\\Users\\rhuan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rhuan\\OneDrive\\Área de Trabalho\\letscode-956-poo\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\obj\\",
+      "projectPath": "C:\\Users\\lucas\\source\\repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3.csproj",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lucas\\source\\repos\\sistema_estacionamento\\projeto_estacionamento_mod3\\projeto_estacionamento_mod3\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\VSComponentes\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\rhuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
