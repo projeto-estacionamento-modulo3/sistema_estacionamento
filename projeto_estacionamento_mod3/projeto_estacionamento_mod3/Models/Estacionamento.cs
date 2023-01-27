@@ -364,6 +364,7 @@ namespace projeto_estacionamento_mod3.Models
         {
             //bool localizouVeiculo = false;
             int contador = 0;
+            Menu mtdAuxiliares = new Menu();
 
             //Lista veiculos que estão estacionados.
             foreach (Veiculo veiculoDaLista in ListaVeiculosEstacionados)
@@ -372,13 +373,23 @@ namespace projeto_estacionamento_mod3.Models
                 Console.WriteLine($"{contador} - Placa:{veiculoDaLista.Placa}");
             }
 
-            //Entra com a placa do veiculo que usar dos serviços.
-            Console.WriteLine($"Digite a placa do veiculo estacionado que irá utilizar algum serviço extra.");
-            string selecaoDeVeiculo = Console.ReadLine().ToUpper();
+            if (ListaVeiculosEstacionados.Count == 0)
+            {
+                Console.WriteLine("Não há veículos estacionados...");
+                Console.WriteLine("Só é possível solicitar serviços para carros estacionados.");
+                Console.WriteLine();
+                Console.Write("Pressione qualquer tecla para voltar ao menu inicial: ");
+                Console.ReadKey();
+                Console.Clear();
+                mtdAuxiliares.MostrarMenu(nomeEstabelecimento, qtdeVagasDisponiveis);
+            }
+                //Entra com a placa do veiculo que usar dos serviços.
+                Console.WriteLine($"Digite a placa do veiculo estacionado que irá utilizar algum serviço extra.");
+                string selecaoDeVeiculo = Console.ReadLine().ToUpper();
 
-            //Localiza se o veiculo informado, pela placa, está realmente estacionado
-            Console.WriteLine($"Localizando veiculo... Aguarde um instante...");
-            foreach (Veiculo veiculoDaLista in ListaVeiculosEstacionados)
+                //Localiza se o veiculo informado, pela placa, está realmente estacionado
+                 Console.WriteLine($"Localizando veiculo... Aguarde um instante...");
+                 foreach (Veiculo veiculoDaLista in ListaVeiculosEstacionados)
             {
                 //se a placa informada corresponde com a lista de estacionados.
                 if (selecaoDeVeiculo == veiculoDaLista.Placa)
@@ -403,15 +414,12 @@ namespace projeto_estacionamento_mod3.Models
                 }
 
             }
-
             // Voltando para o menu inicial.
             Console.WriteLine();
             Console.Write("Pressione qualquer tecla para voltar ao menu inicial: ");
             Console.ReadKey();
             Console.Clear();
-            Menu mtdAuxiliares = new Menu();
             mtdAuxiliares.MostrarMenu(nomeEstabelecimento, qtdeVagasDisponiveis);
-
         }
     }
 }
