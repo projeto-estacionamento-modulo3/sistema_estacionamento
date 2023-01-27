@@ -82,11 +82,11 @@ namespace projeto_estacionamento_mod3.Models
                                     Thread.Sleep(3000);
                                     Console.WriteLine($"Cadastro do veiculo de placa {veiculoDaLista.Placa} localizado...");
                                     Thread.Sleep(2000);
-                                    Console.WriteLine($"Estacionando Veículo na vaga N{ListaVeiculosEstacionados.Count + 1}...");
+                                    Console.WriteLine($"Estacionando Veículo na vaga Nº{ListaVeiculosEstacionados.Count + 1}...");
                                     Thread.Sleep(2000);
                                     //determina a vaga do veidulo e seta a propriedade da classe veiculo do objeto.
                                     int vagaInt = ListaVeiculosEstacionados.Count + 1;
-                                    string vagaVeiculo = "N" + vagaInt;
+                                    string vagaVeiculo = "Nº" + vagaInt;
 
                                     veiculoDaLista.VagaEstacionada = vagaVeiculo;
                                     veiculoDaLista.DeterminarVaga(vagaVeiculo);
@@ -195,6 +195,19 @@ namespace projeto_estacionamento_mod3.Models
             Menu mtdAuxiliares = new Menu();
             mtdAuxiliares.MostrarMenu(nomeEstabelecimento, qtdeVagasDisponiveis);
         }
+        
+        public void VerVagasDisponiveis()
+        {
+            Console.WriteLine($"No momento há vagas {this.qtdeVagasDisponiveis} disponíveis");
+            
+            Console.WriteLine();
+            Console.Write("Pressione qualquer tecla para voltar ao menu inicial: ");
+            Console.ReadKey();
+            Console.Clear();
+            Menu mtdAuxiliares = new Menu();
+            mtdAuxiliares.MostrarMenu(nomeEstabelecimento, qtdeVagasDisponiveis);
+        }
+        
         public void ListarVeiculosEstacionados()
         {
             Console.WriteLine($"- Veículos Estacionados -");
