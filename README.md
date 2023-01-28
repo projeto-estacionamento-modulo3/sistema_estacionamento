@@ -28,4 +28,4 @@ Se você deseja contribuir com este projeto, sinta-se à vontade para abrir uma 
 - Rafael Pinheiro
 - José Augusto
 - Rodrigo Santos
-- Rhuan Firmino
+- Rhuan Henrique
