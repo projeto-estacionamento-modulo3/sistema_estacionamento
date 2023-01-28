@@ -1,7 +1,7 @@
 
 #  :car: Sistema de Estacionamento  :car:
 
-Este é um sistema de gerenciamento de estacionamentos, desenvolvido em C# para console. Ele permite cadastrar novos estacionamentos, incluindo seu nome e número de vagas, cadastrar carros, estacionar e retirar os carros, gerar faturas com o período de tempo em que o carro ficou estacionado e oferece serviços extras.
+Este é um sistema de gerenciamento de estacionamentos, desenvolvido em C# para console. 
 
 ## Recursos 
 - Cadastro de novos estacionamentos
